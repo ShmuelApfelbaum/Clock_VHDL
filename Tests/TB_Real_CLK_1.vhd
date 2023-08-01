@@ -2,10 +2,10 @@ library IEEE;
   use IEEE.std_logic_1164.all;
   use IEEE.std_logic_unsigned.all;
 
-entity TB_Real_Clock_1 is
-end TB_Real_Clock_1;
+entity TB_Real_CLK_1 is
+end TB_Real_CLK_1;
 
-architecture TB_ARC5_1 of TB_Real_Clock_1 is
+architecture TB_ARC5_1 of TB_Real_CLK_1 is
 component REAL_CLK
 port
 (
