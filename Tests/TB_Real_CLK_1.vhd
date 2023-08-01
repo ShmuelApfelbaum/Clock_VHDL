@@ -5,7 +5,7 @@ library IEEE;
 entity TB_Real_CLK_1 is
 end TB_Real_CLK_1;
 
-architecture TB_ARC5_1 of TB_Real_CLK_1 is
+architecture TB_ARC_1 of TB_Real_CLK_1 is
 component REAL_CLK
 port
 (
@@ -56,4 +56,4 @@ DUT: REAL_CLK
 			'0' after 2000.3 us;
 	
 	
-end TB_ARC5_1;
+end TB_ARC_1;
